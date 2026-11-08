@@ -1,0 +1,18 @@
+Model,Group,Accuracy,Precision,Recall,F1,AUC-ROC
+LDA,baseline (sklearn),0.8492,0.8281,0.7681,0.797,0.8623
+LDA (tuned),GridSearchCV,0.8436,0.8254,0.7536,0.7879,0.8594
+DecisionTree (tuned),GridSearchCV,0.8324,0.791,0.7681,0.7794,0.8543
+SVM,baseline (sklearn),0.838,0.8333,0.7246,0.7752,0.8528
+SVM (tuned),GridSearchCV,0.8324,0.8095,0.7391,0.7727,0.8505
+NN (exp_lr_0.01),TensorFlow,0.8101,0.7273,0.8116,0.7671,0.8476
+kNN (tuned),GridSearchCV,0.8101,0.7333,0.7971,0.7639,0.8329
+GaussianNB (tuned),GridSearchCV,0.7765,0.6629,0.8551,0.7468,0.7736
+GaussianNB,baseline (sklearn),0.7654,0.6484,0.8551,0.7375,0.7742
+kNN,baseline (sklearn),0.7989,0.7538,0.7101,0.7313,0.8254
+MultinomialNB (tuned),GridSearchCV,0.7654,0.6901,0.7101,0.7,0.8174
+MultinomialNB,baseline (sklearn),0.7542,0.6667,0.7246,0.6944,0.8167
+BernoulliNB (tuned),GridSearchCV,0.7486,0.6538,0.7391,0.6939,0.8341
+BernoulliNB,baseline (sklearn),0.743,0.642,0.7536,0.6933,0.833
+ComplementNB,baseline (sklearn),0.7374,0.6341,0.7536,0.6887,0.8167
+ComplementNB (tuned),GridSearchCV,0.7374,0.6375,0.7391,0.6846,0.8174
+DecisionTree,baseline (sklearn),0.7821,0.8,0.5797,0.6723,0.8301
